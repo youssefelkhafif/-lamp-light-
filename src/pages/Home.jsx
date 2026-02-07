@@ -10,6 +10,7 @@ import { useState } from "react";
 function Home() {
     const [isOn, setIsOn] = useState(true);
     const [isOn2, setIsOn2] = useState(false)
+    
 
     const lamp1 = isOn2
         ? (isOn ? images.lamp1dark : images.lamp1dark1on)
@@ -36,8 +37,10 @@ function Home() {
 
             <div className="flex flex-col items-center gap-y-5">
                 <div className="w-135 flex justify-between items-center h-25 border-b-2  ">
-                    <Tagle1 isOn={isOn} setIsOn={setIsOn} />
-                    <Tagle2 isOn2={isOn2} setIsOn2={setIsOn2} />
+                    <Tagle1 isOn={isOn} setIsOn={setIsOn} isOn2={isOn2} />
+                    <Tagle2 isOn2={isOn2} setIsOn2={setIsOn2}  />
+
+
                 </div>
                 <div className="grid grid-cols-2 grid-rows-2 gap-x-5 gap-y-5 ">
                     <div className="w-65 h-95 bg-black " >

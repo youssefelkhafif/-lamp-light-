@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { MdSunny } from "react-icons/md";
 import { FaMoon } from "react-icons/fa";
 
-function Tagle2({isOn2, setIsOn2}) {
+function Tagle2({isOn2, setIsOn2} ) {
 
         const toggleSwitch2 = () => {
         setIsOn2(prev => !prev);
@@ -51,9 +51,24 @@ const container = {
     cursor: "pointer",
     display: "flex",
     padding: 10,
-    border: "1px solid black",
+    border: "1px solid currentColor",
+    color: "black",
     position: "relative"
 }
+
+const container2 = {
+    width: 75,
+    height: 25,
+    backgroundColor: "var(--hue-3-transparent)",
+    borderRadius: 50,
+    cursor: "pointer",
+    display: "flex",
+    padding: 10,
+    border: "1px solid currentColor",
+    color: "white",
+    position: "relative"
+}
+
 
 const handle = {
     width: 20,
@@ -65,17 +80,7 @@ const handle = {
 
 }
 
-const container2 = {
-    width: 75,
-    height: 25,
-    backgroundColor: "var(--hue-3-transparent)",
-    borderRadius: 50,
-    cursor: "pointer",
-    display: "flex",
-    padding: 10,
-    border: "1px solid white",
-    position: "relative"
-}
+
 
 const handle2 = {
     width: 20,
