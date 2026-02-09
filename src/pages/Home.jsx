@@ -80,6 +80,9 @@ return (
                 </div>
             </div>
         </div>
+        <div className="w-375 h-20 flex items-center justify-center">
+            <p>&copy; by YDooM</p>
+        </div>
     </div>
 );
 
