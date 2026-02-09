@@ -4,22 +4,22 @@ import { motion } from "framer-motion";
 import { MdOutlineLightbulb } from "react-icons/md";
 import { HiOutlineLightBulb } from "react-icons/hi";
 
-function Tagle1({ isOn, setIsOn , isOn2}) {
+function Tagle1({ isOn, setIsOn, isOn2 }) {
 
     // const containf = isOn2 == false ? (isOn ? container : container2) : (isOn ? container2 : container)  ; 
     // const handlf = isOn2 == false ?  (isOn ? handle : handle2) : (isOn ? handle2 : handle)  ; 
 
     // const containt = isOn2  == true ? (isOn ? container2 : container) : (isOn ? container2 : container) ;
     // const handlt = isOn2  == true ? (isOn ? handle2 : handle) : (isOn ? handle2 : handle)  ;
-    
+
     // const contain = (isOn2 || !isOn2 ? containt : containf )
     // const handl = (isOn2 || !isOn2 ? handlt : handlf) 
 
 
 
 
-const contain = isOn2 ? container2 : container;
-const handl   = isOn2 ? handle2 : handle;
+    const contain = isOn2 ? container2 : container;
+    const handl = isOn2 ? handle2 : handle;
 
 
 
@@ -67,7 +67,7 @@ const container = {
     display: "flex",
     padding: 10,
     border: "1px solid currentColor",
-    color: "black",          
+    color: "black",
     position: "relative"
 }
 
@@ -80,7 +80,7 @@ const container2 = {
     display: "flex",
     padding: 10,
     border: "1px solid currentColor",
-    color: "white",         
+    color: "white",
     position: "relative"
 }
 
