@@ -1,6 +1,7 @@
 import {  Routes } from "react-router-dom"
 import { Route } from "react-router-dom"
 import Home from "./pages/Home"
+import Contact from "./pages/contact"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/contact" element={< Contact />} />
     </Routes>
     </>
   )

@@ -3,6 +3,7 @@ import Tagle1 from "../components/tagle_first/Tagle1";
 import Tagle2 from "../components/Tagle_second/Tagle2";
 import { images } from "../constant";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { easeIn, motion } from "framer-motion";
 import { GiDuration } from "react-icons/gi";
 
@@ -81,7 +82,8 @@ return (
             </div>
         </div>
         <div className="w-375 h-20 flex items-center justify-center">
-            <p>&copy; by YDooM</p>
+            <Link to="/contact"><p className="text-2xl" >&copy; by YDooM</p></Link>
+            
         </div>
     </div>
 );
