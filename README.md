@@ -10,6 +10,11 @@ A simple interactive project to control and simulate lamp/light behavior. This p
 - **Light simulation** to visualize lamp behavior  
 - (Optional) Timers or color effects  
 
+## Live Demo
+
+Check out the project online here:  
+[**Lamp Light Live Demo**](https://lamp-light-alpha.vercel.app/) 🌐  
+
 ## Installation
 
 1. Clone this repository:  
