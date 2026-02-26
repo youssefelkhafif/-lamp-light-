@@ -7,7 +7,7 @@ function Nav_bar() {
             <a href="" className="font-bold text-3xl  ">you love lamp©</a>
            </div>
            <div className="flex gap-5">
-            <a href="">follow</a>
+            <a href="https://www.instagram.com/youssef_elkhafif/">follow</a>
             <a href="">courses</a>
            </div>
 
